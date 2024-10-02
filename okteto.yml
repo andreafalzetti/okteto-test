@@ -4,5 +4,5 @@ deploy:
   remote: true
   commands:
     - okteto version
-    - okteto destroy --log-level debug --file backend/test_domain/okteto.yml
-    - okteto deploy --build --log-level debug --file backend/test_domain/okteto.yml 
+#    - okteto destroy --log-level debug --file backend/test_domain/okteto.yml
+#- okteto deploy --build --log-level debug --file backend/test_domain/okteto.yml 
