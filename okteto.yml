@@ -2,8 +2,7 @@ name: okteto-test-build
 
 deploy:
   remote: false
-  commands: |
-    export OKTETO_REMOTE_CLI_IMAGE=registry.product.okteto.dev/andreafalzetti/andrea-cli:2
-    okteto version
+  commands:
+    - okteto version
 #    - okteto destroy --log-level debug --file backend/test_domain/okteto.yml
 #- okteto deploy --build --log-level debug --file backend/test_domain/okteto.yml 
